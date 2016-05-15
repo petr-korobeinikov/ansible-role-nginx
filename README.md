@@ -26,7 +26,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: ansible-role-nginx
+         - role: pkorobeinikov.nginx
            nginx_package_version: 1.9.15-1~trusty
            nginx_conf_templates:
              - { src: nginx/nginx.conf.j2, dest: /etc/nginx/nginx.conf }
