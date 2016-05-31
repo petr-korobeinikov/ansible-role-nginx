@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/pkorobeinikov/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/pkorobeinikov/ansible-role-nginx)
 
-ansible-role-nginx
-==================
+pkorobeinikov.nginx
+===================
 
 Nginx installation.
 
@@ -13,7 +13,7 @@ You must provide your own configuration templates.
 Role Variables
 --------------
 
-* `nginx_package_version` is an exact package version, e.g. `1.9.15-1~trusty`
+* `nginx_package_version` is an exact package version, e.g. `1.9.15-1~trusty`.
 * `nginx_conf_templates` is an array of config templates (see Example Playbook).
 
 Dependencies
